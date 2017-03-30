@@ -1,0 +1,14 @@
+1. For each Philly census tract, calculate the number of crimes that occurred there during each year, 2009 to 2016.
+
+This Step:
+	1. R part: import the original crime data, filter null crime data, set latitude and longtitude apart and
+		   export each year crime data csv for spatial join in arcmap. So I have 8 seperate csv file in this step.
+	2. ArcGIS part: use the philly censuc tract to spatial join each years' crime data and export them back
+		        to csv so I can do the visualization part in R. I ended up reading 8 spatial join csv files in R.
+
+2. Visualize the crime as an animated choropleth
+
+This Step:(all in R)
+	1. merge each spatial join crime data together in one dataset
+	2. ggplot2: using the merged crime data to make the gif using imageMagick and ggplot2
+	3. ezgif: I also tried save 2009 and 2010 crime number map and using ezgif to create gif
