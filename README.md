@@ -2,4 +2,4 @@
 
 ![alt tag](https://github.com/Ziqinwang/philly-crime-gif/blob/master/philly_crime.gif?raw=true)
 
-crimes across Philadelphia's Census tracts, year-by-year from 2009 to 2016.
+Crimes across Philadelphia's Census tracts, year-by-year from 2009 to 2016.
